@@ -1,0 +1,18 @@
+#viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  #add {
+      margin-bottom: 5px;
+  }
+  #actions {
+      padding: 5px;
+  }
+  button:disabled {
+      opacity: 0.4;
+      -moz-opacity: 0.4; /* Firefox and Mozilla browsers */
+      -webkit-opacity: 0.4; /* Safari */
+      cursor: default;
+  } 

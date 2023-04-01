@@ -1,0 +1,9 @@
+tiempo
+oneway
+fzlev
+restriccion()
+def restricion(x=!oneway!):
+    if x in("0","FT"):
+        return(True)
+    else:
+        return(False)
